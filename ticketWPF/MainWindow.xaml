@@ -1,0 +1,16 @@
+﻿<Window x:Class="ticketWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ticketWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="42" Margin="233,82,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="356" Name="FIOTextBox"/>
+        <TextBox HorizontalAlignment="Left" Height="42" Margin="233,140,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="356" Name="PlaceTextBox"/>
+        <TextBox HorizontalAlignment="Left" Height="42" Margin="233,198,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="356" Name="CountryTextBox"/>
+        <Button Content="Купить" HorizontalAlignment="Left" Margin="292,267,0,0" VerticalAlignment="Top" Width="225" Height="36" Name="BuyButton" Click="BuyClick"/>
+
+    </Grid>
+</Window>
